@@ -1,6 +1,7 @@
 # Speech Emotion Recognition using Librosa library and MLPClassifier
-In this project we build a model to recognize emotion from speech using the librosa and Multi Layer Perception Classifier (MLPClassifier) and RAVDESS Dataset.
+In this project we build a model to recognize emotion from speech using the librosa and Multi Layer Perception Classifier (MLPClassifier) and RAVDESS Dataset. This will be able to recognize emotion from sound files. We will load the data, extract features from it, then split the dataset into training and testing sets. Then, we’ll initialize an MLPClassifier and train the model. Finally, we’ll calculate the accuracy of our model.
 
+### Note:
 The python notebook file in this repository was run on Google Colab. Since the dataset is uploaded on google drive we directly use that file in the colab. Benifits of using Colab: Fast Dataset Importing, Unzipping, Faster Processing Time, Get 100+ GB Disk Space and RAM of 12+ GB.
 #### There is no reason not to use Google Colab ;)
 
